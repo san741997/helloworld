@@ -6,8 +6,8 @@ pipeline {
             steps {
                 echo 'Building..'
                 bat 'dir'
-                bat '''del C:\\Users\\Admin\\Desktop\\apache-tomcat-9.0.54\\webapps\\myproj\\surya.html'''
-                bat '''copy "surya.html" "C:/Users/Admin/Desktop/apache-tomcat-9.0.54/webapps/myproj/"'''
+                bat '''del C:\\Users\\ghant\\Desktop\\apache-tomcat-8.5.71\\webapps\\Myproject\\surya.html'''
+                bat '''copy "surya.html" "C:/Users/ghant/Desktop/apache-tomcat-8.5.71/webapps/Myproject"'''
             }
         }
     }
